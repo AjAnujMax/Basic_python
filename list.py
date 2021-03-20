@@ -52,3 +52,8 @@ print(list2 + ['pillow', 'tubelight', ' bed'] )
 # OUTPUT
 # 'table', 'fan','phone', 'clothes', 'bottle', 'microphone', 'pillow', 'tubelight', ' bed'
 
+#--------------------------------------------------
+#LENGTH OF LIST
+print(len(list2) )
+# OUTPUT
+# 5
