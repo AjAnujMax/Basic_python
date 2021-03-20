@@ -45,3 +45,10 @@ print(list2)
 # OUTPUT
 # 'table', 'fan','phone', 'clothes', 'bottle', 'microphone'
 
+
+#--------------------------------------------------
+#to add multiple item
+print(list2 + ['pillow', 'tubelight', ' bed'] )
+# OUTPUT
+# 'table', 'fan','phone', 'clothes', 'bottle', 'microphone', 'pillow', 'tubelight', ' bed'
+
