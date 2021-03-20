@@ -24,8 +24,18 @@ print(college[1:3]) # this will skip 1st postion(0 index)
 
 list2 - ['table', 'chair', 'fan', 'clothes', 'bottle' ]
 
-#to add missing item/append table 
+#to add missing item/APPEND LIST
 list2.append('microphone')
 print(list2)
 # OUTPUT
 # 'table', 'chair', 'fan', 'clothes', 'bottle', 'microphone'
+
+
+#----------------------------------------------------------
+#to add missing item in mid/ INSERT LIST
+list2.insert(2,'phone')
+print(list2)
+# OUTPUT
+# 'table', 'chair', 'fan','phone', 'clothes', 'bottle', 'microphone'
+
+
