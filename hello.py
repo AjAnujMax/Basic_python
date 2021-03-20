@@ -30,4 +30,23 @@ its keep going
 '''
 print(msl) #multi line string 
 
-print("this is a \"")  #print of double quote
+print("this is a \" ")  #print of (") double quote
+
+print("%S" to the right %('this is string')) #string
+
+# OUTPUT:- this is sTring to the right
+
+print('this is statement 1')
+print('this is statement 2')
+
+#OUTPUT:_ (IN DIFFERENT LINES)
+#this is statement 1
+#this is statement 2
+
+print('this is statement 1', end="")
+print('this is statement 2')
+
+#OUTPUT:_ (IN same LINES)
+#this is statement 1 this is statement 2
+
+
