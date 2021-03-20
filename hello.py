@@ -49,4 +49,5 @@ print('this is statement 2')
 #OUTPUT:_ (IN same LINES)
 #this is statement 1 this is statement 2
 
+print("this"*5) # this this this this
 
