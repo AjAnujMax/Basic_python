@@ -38,4 +38,10 @@ print(list2)
 # OUTPUT
 # 'table', 'chair', 'fan','phone', 'clothes', 'bottle', 'microphone'
 
+#--------------------------------------------------
+#to remove item/ REMOVE LIST
+list2.remove(2,'chair')
+print(list2)
+# OUTPUT
+# 'table', 'fan','phone', 'clothes', 'bottle', 'microphone'
 
