@@ -106,3 +106,23 @@ def average(num1,num2):
 print(average(2,3))
  #OUTPUT 
  # 2.5
+
+
+#----------------------------------------
+#STRING
+
+string1 = "this is me"
+print(string1[0:2])
+ #OUTPUT th
+print(string1[-2:])
+#OUTPUT me
+print(string1[:-2])
+#OUTPUT this is
+print(string1.capitalize())
+#OUTPUT This is me
+print(string1.find("this"))
+#OUTPUT 0
+print(string1.find("availabe"))
+#OUTPUT -1
+print(string1.replace("is","are"))
+#OUTPUT thare are me
