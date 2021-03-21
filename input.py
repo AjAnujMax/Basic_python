@@ -126,3 +126,22 @@ print(string1.find("availabe"))
 #OUTPUT -1
 print(string1.replace("is","are"))
 #OUTPUT thare are me
+
+
+#----------------------------------------
+#FILE I/O HANDLING
+
+#to open the file in write mode
+ file1 = open("anuj.txt", "wb") # wb - to write mode
+ 
+ 
+ print(file1.mode)
+ #OUTPUT WB
+ print(file1.name)
+ #OUTPUT  anuj.txt
+
+ # to replace and write in anuj.txt
+ file1.write(bytes("write this to my file","UTF-8")) #to encode in utf-8 
+ 
+ # to close file so that other files can be open latter
+file1.close() 
