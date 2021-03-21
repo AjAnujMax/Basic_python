@@ -79,3 +79,22 @@ for item in list1:
 # [1, 2, 3][1, 2, 3][1, 2, 3][4, 5, 6][4, 5, 6][4, 5, 6][6, 7, 8][6, 7, 8][6, 7,8]
 
 
+#----------------------------------------
+#while
+
+print("enter the number")
+n = int(input())
+#output 
+#10
+while(n>4):
+    print("number is greater than 4")
+    # output is number is greater than 4
+    number = int(input())
+    if(number ==9):
+        break
+    if(number ==8):
+        continue
+    print("loop ended")
+#OUTPUT
+# 4 loop ended
+    
