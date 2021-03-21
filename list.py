@@ -71,3 +71,27 @@ print(tup1[0])
 #1
 
 
+#--------------------------------------
+# Dictionary
+
+names = { 'anuj': 22,
+        'subham': 41,
+         'jyoti': 19,
+         'ramdev': 82}
+        
+print(names["ramdev"])
+#OUTPUT
+#82
+
+names['ramdev'] = 55
+print(names['ramdev'])
+#OUTPUT
+#55
+
+print(names.keys())
+#OUTPUT
+#dict_keys(['anuj', 'subham', 'jyoti', 'ramdev'])
+
+print(names.values())
+#OUTPUT
+#dict_values([22, 41, 19, 55])
