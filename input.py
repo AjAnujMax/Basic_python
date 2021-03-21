@@ -42,3 +42,40 @@ else:
 print("grade is",grade)
 #OUTPUT
 #grade is Dont know
+
+
+#----------------------------------------
+#LOOP
+
+#FOR loop
+print(" 1 to 10 in number")
+for i in range(0,10):
+    print(i)
+ #OUTPUT 
+ # 1 2 3 4 5 6 7 8 9 10 ()all in new lines
+print("how many times u wan t to execute")
+n = int(input())
+for i in range(0,n):
+    print(i)
+ #OUTPUT 
+ #  how many times u wan t to execute
+ # 2
+ # 0 1
+    
+    
+#for list
+list1 = ['item1', 'item2', 'item3']
+for item in list1:
+    print(item)
+ #OUTPUT 
+ #item1  item2 item3  
+    
+#for in for list
+list1 = [[1,2,3], [4,5,6],[6,7,8]]
+for item in list1:
+    for i in item:
+        print(item)
+#OUTPUT 
+# [1, 2, 3][1, 2, 3][1, 2, 3][4, 5, 6][4, 5, 6][4, 5, 6][6, 7, 8][6, 7, 8][6, 7,8]
+
+
