@@ -145,3 +145,12 @@ print(string1.replace("is","are"))
  
  # to close file so that other files can be open latter
 file1.close() 
+
+
+
+#FILE I/O reading
+ file1 = open("anuj.txt", "r+") #  r+ to READ mode
+ text_to_read = file1.read()# inbult function read used
+ print(text_to_read)
+ #OUTPUT :-  print the content of file
+
