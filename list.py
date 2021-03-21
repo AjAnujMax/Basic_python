@@ -55,3 +55,19 @@ print(list2 + ['pillow', 'tubelight', ' bed'] )
 print(len(list2) )
 # OUTPUT
 # 5
+
+
+#--------------------------------------
+# TUPLE 
+print("tuple")
+
+tup1 = (1,2,3)
+list1 = list(tup1)
+print(list1)
+print(tup1[0])
+#OUTPUT---------
+#tuple
+#[1, 2, 3]
+#1
+
+
