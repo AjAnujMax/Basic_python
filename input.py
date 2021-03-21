@@ -98,3 +98,11 @@ while(n>4):
 #OUTPUT
 # 4 loop ended
     
+#----------------------------------------
+#function
+
+def average(num1,num2):
+    return ((num1+num2)/2)
+print(average(2,3))
+ #OUTPUT 
+ # 2.5
