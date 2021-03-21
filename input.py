@@ -154,3 +154,66 @@ file1.close()
  print(text_to_read)
  #OUTPUT :-  print the content of file
 
+
+
+#----------------------------------------
+#OBJECT ORIENTED PROGRAMMING  class/object/attribute
+
+class Employee:     #class created
+    __name = None  # underscore underscore("__") meeans its a private variable and cant access out of class
+    __id = 0
+    __salary = 0
+    def set_name(self,name):  #funtion to check correct data and SELF : 
+        self.__name = name    #set name in public variable/attribute
+    
+    def get_name(self,):  
+        return self.__name    #return set name 
+        
+
+anuj = Employee() # object created
+anuj.set_name('anuj') # set 'anuj' is class variable
+print(anuj.get_name())  
+#output:- anuj
+
+
+#----------------------------------------
+#class object full example
+
+class Employee:     #class created
+    __name = None  # underscore underscore("__") meeans its a private variable and cant access out of class
+    __id = 0
+    __salary = 0
+    
+    def __init__(self, name, id, salary):
+        self.__name = name
+        self.__id = id
+        self.__salary = salary
+    def set_name(self, name):
+       self.__name = name
+
+    def get_name(self):
+        return self.__name
+
+    def set_id(self, id):
+        self.__id = id
+
+    def get_id(self):
+        return self.__id
+
+    def set_salary(self, salary):
+        self.__id = salary
+
+    def get_salary(self):
+        return self.__salary
+
+anuj = Employee('anuj', 420, 70000000) # object created
+anuj.set_name('anuj') # set 'anuj' is class variable
+anuj.set_id('01')
+anuj.set_salary('80000000')
+print(anuj.get_name())  
+#output:- anuj
+print(anuj.get_id())
+#output:- 01
+print(anuj.get_salary())
+#output:- 8000000
+
