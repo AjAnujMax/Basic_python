@@ -43,7 +43,7 @@ print('this is statement 2')
 #this is statement 1
 #this is statement 2
 
-print('this is statement 1', end="")
+print('this is statement 1', end=" ")
 print('this is statement 2')
 
 #OUTPUT:_ (IN same LINES)
