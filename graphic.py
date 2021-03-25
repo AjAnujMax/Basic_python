@@ -143,5 +143,52 @@ ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, linestyle = 'dotted')
 plt.show()
 
+plt.plot(ypoints, linestyle = 'dashed') 
+
+# Shorter Syntax
+# The line style can be written in a shorter syntax:
+# linestyle can be written as ls.
+# dotted can be written as :.
+# dashed can be written as --.
+plt.plot(ypoints, ls = ':')
+#---------------------Line Styles ----------------------------------
+
+Style	Or
+'solid' (default)	'-'	
+'dotted'	':'	
+'dashed'	'--'	
+'dashdot'	'-.'	
+'None'	'' or ' '
+
+#---------------------Line color ----------------------------------
+import matplotlib.pyplot as plt
+import numpy as np
+
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, color = 'r')
+plt.show()
+
+#---------------------Line width ----------------------------------
+import matplotlib.pyplot as plt
+import numpy as np
+
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, linewidth = '20.5')
+plt.show()
+
+#---------------------Multiple Line----------------------------------
+import matplotlib.pyplot as plt
+import numpy as np
+
+y1 = np.array([3, 8, 1, 10])
+y2 = np.array([6, 2, 7, 11])
+
+plt.plot(y1)
+plt.plot(y2)
+
+plt.show()
+
 
 
