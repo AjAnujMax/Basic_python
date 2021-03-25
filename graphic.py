@@ -111,4 +111,24 @@ ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, 'o:r')
 plt.show()
 
+#----------------------Color Reference ----------------------------------
+
+# Color Syntax	Description
+# 'r'	Red	
+# 'g'	Green	
+# 'b'	Blue	
+# 'c'	Cyan	
+# 'm'	Magenta	
+# 'y'	Yellow	
+# 'k'	Black	
+# 'w'	White
+
+#---------------------Marker Size ----------------------------------
+import matplotlib.pyplot as plt
+import numpy as np
+
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, marker = 'o', ms = 20)
+plt.show()
 
